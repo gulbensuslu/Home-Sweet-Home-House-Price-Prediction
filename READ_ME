@@ -1,0 +1,13 @@
+pip install -r requirements.txt
+
+uvicorn main:app --reload  # 8000 portunda çalıştırır
+
+api istekleri:
+
+http://127.0.0.1:8000/docs   # openapi docs UI - 1.try it out - 2.execute 
+
+ya da 
+
+http://127.0.0.1:8000/train   # train apisi
+
+http://127.0.0.1:8000/predict   # predict apisi
